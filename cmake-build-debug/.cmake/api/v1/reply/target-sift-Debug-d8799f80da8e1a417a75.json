@@ -1,0 +1,647 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "E:/CLionProjects/PCL/PCL_practice/build/Debug/bin/sift.exe"
+		},
+		{
+			"path" : "E:/CLionProjects/PCL/PCL_practice/build/Debug/bin/sift.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd   -DBOOST_ALL_NO_LIB-DBOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/arch:AVX2"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_ALL_NO_LIB-DBOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_ATOMIC_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_FILESYSTEM_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_IOSTREAMS_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_SYSTEM_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "KISSFFT_DLL_IMPORT=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSE2__"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSE3__"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSE4_1__"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSE4_2__"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSE__"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__SSSE3__"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "kiss_fft_scalar=double"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "D:/LearningApps/PCL_1.12.1/include/pcl-1.12"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "D:/LearningApps/PCL_1.12.1/3rdParty/Eigen/eigen3"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "D:/LearningApps/PCL_1.12.1/3rdParty/Boost/include/boost-1_78"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "D:/LearningApps/PCL_1.12.1/3rdParty/OpenNI2/Include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/LearningApps/PCL_1.12.1/3rdParty/VTK/include/vtk-9.1"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/LearningApps/PCL_1.12.1/3rdParty/VTK/include/vtk-9.1/vtkfreetype/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/LearningApps/PCL_1.12.1/3rdParty/FLANN/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/LearningApps/PCL_1.12.1/3rdParty/Qhull/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "sift::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:D:\\LearningApps\\PCL_1.12.1\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_surfaced.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_keypointsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_trackingd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_recognitiond.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_stereod.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_outofcored.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_peopled.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_system-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_filesystem-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_date_time-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_iostreams-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_serialization-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\OpenNI2\\Lib\\OpenNI2.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\FLANN\\lib\\flann_cpp_s.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_registrationd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_segmentationd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_featuresd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_filtersd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_sample_consensusd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_mld.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_visualizationd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_searchd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_kdtreed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_iod.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_octreed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\OpenNI2\\Lib\\OpenNI2.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkChartsCore-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkInteractionImage-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkIOGeometry-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkjsoncpp-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkIOPLY-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkRenderingLOD-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkViewsContext2D-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkViewsCore-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkInteractionWidgets-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkFiltersModeling-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkInteractionStyle-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkFiltersExtraction-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkIOLegacy-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkIOCore-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkRenderingAnnotation-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkRenderingContext2D-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkRenderingFreeType-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkfreetype-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkImagingSources-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkIOImage-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkzlib-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkImagingCore-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkRenderingOpenGL2-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkRenderingUI-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkRenderingCore-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkCommonColor-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkFiltersGeometry-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkFiltersSources-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkFiltersGeneral-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkCommonComputationalGeometry-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkFiltersCore-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkCommonExecutionModel-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkCommonDataModel-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkCommonMisc-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkCommonTransforms-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkCommonMath-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkkissfft-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkglew-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtkCommonCore-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\VTK\\lib\\vtksys-9.1d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\lib\\pcl_commond.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_system-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_filesystem-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bcrypt.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "synchronization.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "bcrypt.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "synchronization.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_atomic-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_date_time-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_iostreams-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Boost\\lib\\libboost_serialization-vc142-mt-gd-x64-1_78.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LearningApps\\PCL_1.12.1\\3rdParty\\Qhull\\lib\\qhull_rd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sift",
+	"nameOnDisk" : "sift.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sift.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
